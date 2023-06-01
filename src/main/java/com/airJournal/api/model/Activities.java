@@ -31,5 +31,7 @@ public class Activities {
         this.name = name;
         this.description = description;
     }
+public Activities(){
 
+}
 }
