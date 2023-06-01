@@ -1,6 +1,4 @@
 package com.airJournal.api.model;
-
-
 import org.hibernate.annotations.LazyCollection;
 import org.hibernate.annotations.LazyCollectionOption;
 
@@ -22,4 +20,16 @@ public class Activities {
     @OneToMany(mappedBy = "activities", orphanRemoval = true)
     @LazyCollection(LazyCollectionOption.FALSE)
     private List<City> cityList;
+
+    public City(long id, String name, String description){
+       this.id = id;
+       this.name = name;
+       this.description = description;
+    }
+
+    public Activities(String name, String description){
+        this.name = name;
+        this.description = description;
+    }
+
 }
