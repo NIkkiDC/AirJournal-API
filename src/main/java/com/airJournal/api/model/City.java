@@ -1,5 +1,7 @@
 package com.airJournal.api.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 
 @Entity
@@ -13,4 +15,6 @@ public class City {
     private String name;
     @Column
     private String description;
+
+
 }
