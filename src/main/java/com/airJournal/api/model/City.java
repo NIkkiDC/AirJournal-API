@@ -16,5 +16,8 @@ public class City {
     @Column
     private String description;
 
+    @JsonIgnore
+    @ManyToOne // many cities to one activity
+    @JoinColumn(name = "activities_id")
 
 }
