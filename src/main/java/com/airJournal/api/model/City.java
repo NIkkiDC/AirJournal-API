@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import javax.persistence.*;
 
 @Entity
-@Table(name="city")
+@Table(name="cities")
 public class City {
     @Id
     @Column
@@ -18,8 +18,8 @@ public class City {
 
     @JsonIgnore
     @ManyToOne // many cities to one activity
-    @JoinColumn(name = "activities_id")
-    private Activities activities;
+    @JoinColumn(name = "activity_id")
+    private Activity activity;
 
     public City() {}
 
@@ -41,7 +41,7 @@ public class City {
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", description='" + description + '\'' +
-                ", activities=" + activities +
+                ", activities=" + activity +
                 '}';
     }
 }
