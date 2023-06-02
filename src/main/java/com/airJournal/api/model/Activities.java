@@ -60,8 +60,11 @@ public Activities(){
                 '}';
     }
 
-    public List<City> getBookList() {return cityList;}
+    public List<City> getCityList() {
+        return cityList;
+    }
 
-    public void setCityList(List<city> cityList) {this.cityList = cityList;}
-
+    public void setCityList(List<City> cityList) {
+        this.cityList = cityList;
+    }
 }
