@@ -62,6 +62,6 @@ public Activities(){
 
     public List<City> getBookList() {return cityList;}
 
-    public void setBookList(List<city> cityList) {this.cityList = cityList;}
+    public void setCityList(List<city> cityList) {this.cityList = cityList;}
 
 }
