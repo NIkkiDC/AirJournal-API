@@ -1,4 +1,5 @@
 package com.airJournal.api.model;
+import com.airJournal.api.controller.CityController;
 import org.hibernate.annotations.LazyCollection;
 import org.hibernate.annotations.LazyCollectionOption;
 
@@ -21,7 +22,7 @@ public class Activities {
     @LazyCollection(LazyCollectionOption.FALSE)
     private List<City> cityList;
 
-    public City(long id, String name, String description){
+    public Activities(long id, String name, String description){
        this.id = id;
        this.name = name;
        this.description = description;
@@ -32,6 +33,35 @@ public class Activities {
         this.description = description;
     }
 public Activities(){
-
 }
+
+
+    public Long getId() {return id;}
+
+    public String getName() {return name;}
+
+    public String getDescription() {return description;}
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {this.name = name;}
+
+    public void setDescription(String description) {this.description = description;}
+
+    @Override
+    public String toString() {
+        return "Activities{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", description='" + description + '\'' +
+                ", countryList=" + cityList +
+                '}';
+    }
+
+    public List<City> getBookList() {return cityList;}
+
+    public void setBookList(List<city> cityList) {this.cityList = cityList;}
+
 }
