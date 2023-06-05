@@ -35,6 +35,8 @@ public class ActivityData implements CommandLineRunner {
             Activity activity1 = new Activity("Kayaking", "paddling a small craft through water");
             Activity activity2 = new Activity("Hot AirBallon", "The pilot will apply heat to make the balloon slowly rise off the ground.");
             Activity activity3 = new Activity("Camel Riding", "Riding camels on the beach, beautiful views");
+            Activity activity4 = new Activity("Parasailing","the recreational activity of gliding through the air wearing an open parachute while being towed by a motorboat.");
+
 
         }
     }
