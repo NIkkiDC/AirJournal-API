@@ -3,6 +3,7 @@ package com.airJournal.api.model;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name="cities")
@@ -16,10 +17,8 @@ public class City {
     @Column
     private String description;
 
-    @JsonIgnore
-    @ManyToOne // many cities to one activity
-    @JoinColumn(name = "activity_id")
-    private Activity activity;
+    @OneToMany(mappedBy = "city")
+    private List<Activity> activityList;
 
     public City() {}
 
@@ -41,13 +40,20 @@ public class City {
 
     public void setDescription(String description) {this.description = description;}
 
+    public List<Activity> getActivityList() {
+        return activityList;
+    }
+
+    public void setActivityList(List<Activity> activityList) {
+        this.activityList = activityList;
+    }
+
     @Override
     public String toString() {
         return "City{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", description='" + description + '\'' +
-                ", activities=" + activity +
                 '}';
     }
 }
