@@ -1,5 +1,4 @@
 package com.airJournal.api.controller;
-
 import com.airJournal.api.model.City;
 import com.airJournal.api.repository.CityRepo;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,10 +14,8 @@ import java.util.List;
 @RequestMapping(path = "/api")
 public class CityController {
 
-    private CityRepo cityRepo;
-
     @Autowired
-    public void setCityRepo(CityRepo cityRepo) {this.cityRepo = cityRepo; }
+    private CityRepo cityRepo;
 
     /**
      * retrieves a list of cities when a GET request is made to the "/city" path.
@@ -35,7 +32,11 @@ public class CityController {
      * @param cityId
      * @return
      */
+
     @GetMapping(path = "/city/{cityId}") //
     public City getCityById(@PathVariable Long cityId) {return cityRepo.findById(cityId).get();}
+
+
+
 
 }
