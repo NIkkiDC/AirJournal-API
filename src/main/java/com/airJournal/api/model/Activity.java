@@ -30,9 +30,9 @@ public class Activity {
         this.name = name;
         this.description = description;
     }
+
 public Activity(){
 }
-
 
     public Long getId() {return id;}
 
