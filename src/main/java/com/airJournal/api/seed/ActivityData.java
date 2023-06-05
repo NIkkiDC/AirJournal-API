@@ -31,7 +31,9 @@ public class ActivityData implements CommandLineRunner {
         dataForActivity();
     }
     private void dataForActivity () {
-        if (activityRepo)
+        if (activityRepo.count() == 0) {
+            Activity activity1 = new Activity("Kayaking", "paddling a small craft through water");
+        }
     }
 
 }
