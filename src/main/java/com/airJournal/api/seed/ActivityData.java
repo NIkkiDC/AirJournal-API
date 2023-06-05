@@ -1,6 +1,7 @@
 package com.airJournal.api.seed;
 
 import com.airJournal.api.model.Activity;
+import com.airJournal.api.repository.ActivityRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -31,7 +32,21 @@ public class ActivityData implements CommandLineRunner {
         dataForActivity();
     }
     private void dataForActivity () {
-        if (activityRepo)
+        if (activityRepo.count() == 0) {
+            Activity activity1 = new Activity(" Clear Kayaking", "paddling a small craft through water, the boat is clear so that you can see down below you.");
+            Activity activity2 = new Activity("Hot Air Balloon", "The pilot will apply heat to make the balloon slowly rise off the ground.");
+            Activity activity3 = new Activity("Camel Riding", "Riding camels on the beach, beautiful views");
+            Activity activity4 = new Activity("Parasailing","the recreational activity of gliding through the air wearing an open parachute while being towed by a motorboat.");
+            Activity activity5 = new Activity("Helicopter ride","Explore Seychelles Islands from above on a helicopter tour organized by Adventure Life." );
+            activityRepo.save(activity1);
+            activityRepo.save(activity2);
+            activityRepo.save(activity3);
+            activityRepo.save(activity4);
+            activityRepo.save(activity5);
+
+
+
+        }
     }
 
 }
