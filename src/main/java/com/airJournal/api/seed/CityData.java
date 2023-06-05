@@ -22,6 +22,11 @@ public class CityData implements CommandLineRunner {
             City city3 = new City(3L, "Masai Mara", "Maasai Mara National Reserve is an area of preserved savannah wilderness in southwestern Kenya, along the Tanzanian border.");
             City city4 = new City(4L, "Grand Baie", "Grand-Baie is a village in northern Mauritius. Its sandy beaches include secluded La Cuvette, and sailboat-dotted Grand-Baie Public Beach." );
             City city5 = new City(5L, "Mahé", "Mahé is the largest island in the Seychelles archipelago, in the Indian Ocean off East Africa.The island is also home to Victoria, Seychelles' capital." );
+            cityRepo.save(city1);
+            cityRepo.save(city2);
+            cityRepo.save(city3);
+            cityRepo.save(city4);
+            cityRepo.save(city5);
         }
     }
 }
