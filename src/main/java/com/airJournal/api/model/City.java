@@ -23,6 +23,12 @@ public class City {
 
     public City() {}
 
+    public City(Long id, String name, String description) {
+        this.id = id; // id number
+        this.name = name; // name of city
+        this.description = description; // description of city //weather, or something
+    }
+
     public Long getId() {return id;}
 
     public void setId(Long id) {this.id = id;}

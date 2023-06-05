@@ -1,5 +1,6 @@
 package com.airJournal.api.seed;
 
+import com.airJournal.api.model.City;
 import com.airJournal.api.repository.CityRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -16,6 +17,7 @@ public class CityData implements CommandLineRunner {
 
     private void dataForCity() {
         if(cityRepo.count() == 0) {
+            City city1 = new City(1L, "name", "description");
 
         }
     }
