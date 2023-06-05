@@ -1,6 +1,7 @@
 package com.airJournal.api.seed;
 
 import com.airJournal.api.model.Activity;
+import com.airJournal.api.repository.ActivityRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
