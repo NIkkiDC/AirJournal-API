@@ -53,6 +53,7 @@ public class ActivityData implements CommandLineRunner {
             Activity activity4 = new Activity(4L,"Parasailing","the recreational activity of gliding through the air wearing an open parachute while being towed by a motorboat.");
             Activity activity5 = new Activity(5L,"Helicopter ride","Explore Seychelles Islands from above on a helicopter tour organized by Adventure Life." );
             activity1.setCity(city1);
+            activity2.setCity(city2);
             cityRepo.save(city1);
             cityRepo.save(city2);
             cityRepo.save(city3);
