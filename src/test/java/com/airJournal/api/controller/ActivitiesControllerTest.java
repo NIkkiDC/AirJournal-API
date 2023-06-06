@@ -17,6 +17,9 @@ public class ActivitiesControllerTest {
     @MockBean
     ActivityRepo activityRepo;
 
+    Activity activity1 = new Activity(1L," Clear Kayaking", "paddling a small craft through water, the boat is clear so that you can see down below you.");
+    Activity activity2 = new Activity(2L,"Hot Air Balloon", "The pilot will apply heat to make the balloon slowly rise off the ground.");
+    Activity activity3 = new Activity(3L,"Camel Riding", "Riding camels on the beach, beautiful views");
 
 
 }
