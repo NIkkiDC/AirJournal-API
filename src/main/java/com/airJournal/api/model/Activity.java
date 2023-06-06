@@ -1,4 +1,5 @@
 package com.airJournal.api.model;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import org.hibernate.annotations.LazyCollection;
 import org.hibernate.annotations.LazyCollectionOption;
 import javax.persistence.*;
@@ -12,24 +13,23 @@ public class Activity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @Column
-    private String name;
+    private String name; // activity repo
     @Column
     private String description;
 
-    @OneToMany(mappedBy = "activity", orphanRemoval = true)
-    @LazyCollection(LazyCollectionOption.FALSE)
-    private List<City> cityList;
 
-    public Activity(long id, String name, String description){
+    @ManyToOne
+    @JoinColumn(name = "city_id")
+    @JsonIgnore
+    private City city;
+
+
+    public Activity(Long id, String name, String description){
        this.id = id;
        this.name = name;
        this.description = description;
     }
 
-    public Activity(String name, String description){
-        this.name = name;
-        this.description = description;
-    }
 
 public Activity(){
 }
@@ -48,21 +48,21 @@ public Activity(){
 
     public void setDescription(String description) {this.description = description;}
 
+    public City getCity() {
+        return city;
+    }
+
+    public void setCity(City city) {
+        this.city = city;
+    }
+
     @Override
     public String toString() {
         return "Activities{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", description='" + description + '\'' +
-                ", countryList=" + cityList +
                 '}';
-    }
 
-    public List<City> getCityList() {
-        return cityList;
-    }
-
-    public void setCityList(List<City> cityList) {
-        this.cityList = cityList;
     }
 }

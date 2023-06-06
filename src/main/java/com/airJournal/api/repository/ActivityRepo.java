@@ -4,5 +4,5 @@ import com.airJournal.api.model.Activity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ActivityRepo extends JpaRepository<Activity, Long> {
-    Activity findByName(String name);
+    Activity findByName(String name); // based upon the city (name)
 }
