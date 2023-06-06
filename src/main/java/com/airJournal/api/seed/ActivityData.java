@@ -55,6 +55,7 @@ public class ActivityData implements CommandLineRunner {
             activity1.setCity(city1);
             activity2.setCity(city2);
             activity3.setCity(city3);
+            activity4.setCity(city4);
             cityRepo.save(city1);
             cityRepo.save(city2);
             cityRepo.save(city3);
