@@ -5,6 +5,7 @@ import com.airJournal.api.model.City;
 import com.airJournal.api.repository.ActivityRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -21,5 +22,7 @@ public class ActivitiesController {
     @GetMapping("/activities/cityId") // one activity
     public List<Activity> getAllActivities() {return activityRepo.findAll(); }
 
+    @GetMapping(path = "/activities/{activitiesId}")//
+    public Activity getActivityById(@PathVariable Long activitiesId) {return activityRepo.findAllById(cityId).get();}
 
 }
