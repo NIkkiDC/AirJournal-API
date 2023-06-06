@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-//city list //author
 @RestController
 @RequestMapping(path = "/api")
 public class CityController {
