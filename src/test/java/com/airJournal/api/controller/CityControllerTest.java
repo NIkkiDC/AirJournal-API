@@ -30,9 +30,9 @@ public class CityControllerTest {
     @MockBean
     CityRepo cityRepo;
 
-    City city1 = new City(1L, "Nairobi", "Nairobi is the capital and largest city of Kenya. The name is derived from the Maasai phrase Enkare Nairobi.");
-    City city2 = new City(2L, "Mombasa", "Mombasa is a coastal city in southeastern Kenya along the Indian Ocean. It was the first capital of British East Africa." );
-    City city3 = new City(3L, "Masai Mara", "Maasai Mara National Reserve is an area of preserved savannah wilderness in southwestern Kenya, along the Tanzanian border.");
+    City city1 = new City(1L, "Mombasa", "Mombasa is a coastal city in southeastern Kenya along the Indian Ocean. It was the first capital of British East Africa." );
+    City city2 = new City(2L, "Masai Mara", "Maasai Mara National Reserve is an area of preserved savannah wilderness in southwestern Kenya, along the Tanzanian border.");
+    City city3 = new City(3L, "Grand Baie", "Grand-Baie is a village in northern Mauritius. Its sandy beaches include secluded La Cuvette, and sailboat-dotted Grand-Baie Public Beach." );
 
     @Test
     public void getAllCities_success() throws Exception {
