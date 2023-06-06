@@ -50,6 +50,15 @@ public class CityControllerTest {
                 .andExpect(jsonPath("$",notNullValue()))
                 .andDo(print());
     }
-
+    @Test
+    public void getCityById_success() throws Exception {
+        when(cityRepo.findById(anyLong())).thenReturn(Optional.ofNullable(city1));
+        mockMvc.perform(MockMvcRequestBuilders
+                        .get("/api/city/{cityId}", 1L)
+                        .contentType(MediaType.APPLICATION_JSON))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$", notNullValue()))
+                .andDo(print());
+    }
 }
 
