@@ -21,8 +21,10 @@ public class ActivitiesController {
 
     @GetMapping("/activities/cityId") // one activity
     public List<Activity> getAllActivities() {return activityRepo.findAll(); }
+    //get ALL activities
 
     @GetMapping(path = "/activities/{activitiesId}")//
-    public Activity getActivityById(@PathVariable Long activitiesId) {return activityRepo.findAllById(cityId).get();}
+    public Activity getActivityById(@PathVariable Long activitiesId) {return activityRepo.findById(activitiesId).get();}
+    // activities by id (one)
 
 }
