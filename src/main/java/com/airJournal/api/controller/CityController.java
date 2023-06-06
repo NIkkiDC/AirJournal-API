@@ -33,7 +33,7 @@ public class CityController {
      * @return
      */
 
-    @GetMapping(path = "/city/{cityId}") //
+    @GetMapping(path = "/city/{cityId}")
     public City getCityById(@PathVariable Long cityId) {return cityRepo.findById(cityId).get();}
 
 
