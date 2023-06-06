@@ -54,6 +54,7 @@ public class ActivityData implements CommandLineRunner {
             Activity activity5 = new Activity(5L,"Helicopter ride","Explore Seychelles Islands from above on a helicopter tour organized by Adventure Life." );
             activity1.setCity(city1);
             activity2.setCity(city2);
+            activity3.setCity(city3);
             cityRepo.save(city1);
             cityRepo.save(city2);
             cityRepo.save(city3);
