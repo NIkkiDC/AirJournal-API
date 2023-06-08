@@ -110,16 +110,11 @@ Copy and paste the code below into your pom.xml file. Once copied right mouse cl
 <br>
 
 ## Reflections / Hurdles / Wins 
-One thing I would do differently if I was given another project with a similar outcome is to really spend time learning, and familiarizing myself with the material I am not comfortable with FIRST. During the project there were a few concepts that were hazy to me, but I was able to search for different methods/ways to properly implement those things into my project successfully. I was learning as I went through with the project which was great, but I feel like that took up a lot of my time, and I wasn’t as confident.
+
+Time management. Last project I spent my time wisely this time I allowed myself to get overwhelemed in the start of the project. I ended up spending 14-16 hour days on the last 3 days to make sure everything was working properly, and looked well enough to the standard that I hold for myself. I was able to complete everything, on time, to my liking, and I am proud of that. On Wednesday I spent a lot of time because I didn't want to stress myself out the night before it was due. I also wanted to make sure I was failing fast with the help of everyone during the day. Otherwise I would be SOL, If I had waited. I made sure to save simpler task for the last day. I spent the last day just touching up, and going over my speaking points.
 
 
-I am most proud of the fact that I took this project as a learning experience. Anything I was not comfortable with I spent more time on. I asked more questions about it, and diligently completed research to successfully find the answer. I was more comfortable with the cucumber version of testing, so I went ahead and completed the testing utilizing the MVC. After completing so many test cases utilizing the MVC approach I grew more comfortable with the material.
-
-
-One thing I would do next is implement a synopsis of each book.So if views are not familiar with the book titles the have more information to gauge their selection. I would also implement a small auto-biography of each author. Just some general facts of where they are from, when they began writing, and when was their first publish.
-
-
-I learned a lot about how to properly utilize MVC. I know it’s something simple to most, but for me I had a tuff time properly obtaining, and inserting information in Postman. During this project I got the opportunity to successfully test all of my endpoints. {Before it was successful, I had a lot of hiccups} This is not tech related, but I learned a lot about 60% of these authors. I had never heard of some of these authors before, but I have read some of their books, I just never connected the author with the book. It was fun to actually learn some non-tech information doing this project as well.
+I learned a lot about how to properly utilize MVC. I love using it because I feel I am getting better with it each time I use it 
 
 
 
@@ -133,7 +128,7 @@ Rachel Ehrlich assisted me with the beautiful icons I have. Rachel, and Wanda al
 
 DeShe Woods helped me fix an error I was having with linking my API to my Angular application.
 
-Dhrubo for making sure I was doing well with my time.
+Dhrubo, Leo, and Suresh for making sure I was doing well with my time.
 
 <br>
 
