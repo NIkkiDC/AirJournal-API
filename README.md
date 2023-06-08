@@ -45,25 +45,18 @@ No more expensive travel agents to find your excursions! You don’t have to do 
 
 ## 📝 User Stories 
 
-As a user I should be able to create an Author in the database.
+User should see the NAVBAR from all pages of the site.
 
-As a user I should be able to look up a single author.
+Users should be able to view a city.
 
-As a user I should be able to update a single author.
+Users should be able to click to the FAQs page to see answers to a few questions.
 
-As a user I should be able to delete a single author.
+On the home page users can browse through 3-4 suggested cities to visit w/ a photo, the name of the country, and city.
 
-As a user I should be able to create a book for a single author.
+User should have access to all activities.
 
-As a user I should be able to update a book that belongs to a single author.
+User should see ads on the home page / or travel tips.
 
-As a user I should be able to delete a book that belongs to a single author.
-
-As a user I should be able to delete a single author.
-
-As a user, Im able to get a list of authors from my database so I can find different books from the authors.
-
-As a user I should not be allowed to make duplicate entries of authors. If I should make a duplicate entry of an author an error should immediately come across the screen, so I don’t input that duplicate. 
 
 <br>
 
