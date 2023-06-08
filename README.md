@@ -9,7 +9,6 @@
 ## 🧾 Table Of Contents 
 * Project Description 
 * Tools & Technoilogies 
-* Kanban Project <sub> {Project Aproach} </sub>
 * User Stories 
 * Endpoint Mappings
 * ERD Diagram 
@@ -37,11 +36,6 @@ No more expensive travel agents to find your excursions! You don’t have to do 
 
 <br>
 
-## 📊 Kanban Project Plan 
-
-<img width="1449" alt="Screenshot 2023-05-11 at 11 37 03 AM" src="https://github.com/NIkkiDC/libraryJava/assets/97572760/b910412c-d7a9-42ef-a17d-8dfcc2e157e1">
-
-<br>
 
 ## 📝 User Stories 
 
