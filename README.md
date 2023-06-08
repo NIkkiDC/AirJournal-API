@@ -132,9 +132,14 @@ I learned a lot about how to properly utilize MVC. I know it’s something simpl
 <br>
 
 ## 🔖 Credits 
-Thank you so much to Wanda, she helped me understand what I was doing better, and she helped me refactor my project where it needed refactoring. Wanda also was sure to explain her thought process on any refactoring she wanted me to implment. 
 
-Thank you to group RC {Rachel & Clair} They were the support system that I needed during this project.
+Wanda Avery assisted me every step of the way with this project. She helped me understand connecting my api with the front end. Wanda is also a great cheerleader as well! She was very helpful when making sure I stayed on track.
+
+Rachel Ehrlich assisted me with the beautiful icons I have. Rachel, and Wanda always make me realize that I do have an understanding of what I am doing, and do hold the answer in my head! I just need to be confident, and pratice more.
+
+DeShe Woods helped me fix an error I was having with linking my API to my Angular application.
+
+Dhrubo for making sure I was doing well with my time.
 
 <br>
 
