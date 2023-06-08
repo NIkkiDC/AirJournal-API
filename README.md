@@ -65,20 +65,16 @@ User should see ads on the home page / or travel tips.
 
 | Request Type | URL                   | Functionality                         | Access | 
 |--------------|-----------------------|---------------------------------------|--------|
-| POST         | /api/author/          | Create author                         | Public |
-| GET          | /api/author/1/        | Get single author                     | Public |
-| PUT          | /api/author/1/        | Update single author                  | Public |
-| DELETE       | /api/author/1/        | Delete single author                  | Public |
-| POST         | /api/author/1/book/   | Creating a book for a single author   | Public |
-| GET          | /api/author/1/book/1/ | Get a book belongs a single author    | Public |
-| PUT          | /api/author/1/book/1/ | Update a book belongs a single author | Public |
-| DELETE       | /api/author/1/book/1/ | Delete a book belongs a single author | Public |
+| GET          | /api/activities       | Get all activity                      | Public |
+| GET          |/api/activities/1      | Get single activity                   | Public |
+| GET          | /api/city             | Get all cities                        | Public |
+| GET          | /api/city/1           | Get single city                       | Public |
+
 
 
 ## 📰 ERD Diagram
 
-<img width="806" alt="Screenshot 2023-05-12 at 4 13 08 PM" src="https://github.com/NIkkiDC/libraryJava/assets/97572760/bf247c17-4b1d-4961-9187-7a56dce4dd36">
-
+<img width="1136" alt="Screenshot 2023-06-08 at 2 15 28 AM" src="https://github.com/NIkkiDC/AirJournal-API/assets/97572760/ca83324e-696e-4d19-bd82-0fbf4a34f2f8">
 
 <br>
 
