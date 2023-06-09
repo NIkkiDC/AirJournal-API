@@ -41,7 +41,7 @@ No more expensive travel agents to find your excursions! You don’t have to do 
 
 User should see the NAVBAR from all pages of the site.
 
-Users should be able to view a city.
+Users should be able to view a city with a photo.
 
 Users should be able to click to the FAQs page to see answers to a few questions.
 
@@ -49,7 +49,7 @@ On the home page users can browse through 3-4 suggested cities to visit w/ a pho
 
 User should have access to all activities.
 
-User should see ads on the home page / or travel tips.
+User should see ads on the home page.
 
 
 <br>
