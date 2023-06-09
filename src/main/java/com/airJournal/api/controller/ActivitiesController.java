@@ -19,9 +19,20 @@ public class ActivitiesController {
     @Autowired
    private ActivityRepo activityRepo;
 
+    /**
+     * this method retrieves all activities using the activityRepo
+     * @return
+     */
+
     @GetMapping("/activities/cityId") // one activity
     public List<Activity> getAllActivities() {return activityRepo.findAll(); }
     //get ALL activities
+
+    /**
+     * this method retrieves one activitiy by the activityId
+     * @param activitiesId
+     * @return
+     */
 
     @GetMapping(path = "/activities/{activitiesId}")//
     public Activity getActivityById(@PathVariable Long activitiesId) {return activityRepo.findById(activitiesId).get();}

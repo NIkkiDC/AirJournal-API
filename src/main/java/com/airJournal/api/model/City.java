@@ -28,6 +28,11 @@ public class City {
         this.description = description; // description of city //weather, or something
     }
 
+    /**
+     * Getters and setters w/ constructor as well
+     * @return
+     */
+
     public Long getId() {return id;}
 
     public void setId(Long id) {this.id = id;}
