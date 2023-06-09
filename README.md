@@ -49,7 +49,11 @@ On the home page users can browse through 3-4 suggested cities to visit w/ a pho
 
 User should have access to all activities.
 
+User should have access to all cities.
+
 User should see ads on the home page.
+
+All ads should be able to be clicked, and take them to the website of that ad.
 
 
 <br>
