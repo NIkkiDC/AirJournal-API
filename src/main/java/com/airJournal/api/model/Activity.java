@@ -34,6 +34,11 @@ public class Activity {
 public Activity(){
 }
 
+    /**
+     * creating the getters and setters as well as constructor
+     * @return
+     */
+
     public Long getId() {return id;}
 
     public String getName() {return name;}
